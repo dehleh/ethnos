@@ -1,0 +1,1 @@
+web: gunicorn petscan.wsgi:application --log-file -
