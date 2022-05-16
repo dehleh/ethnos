@@ -1,1 +1,1 @@
-web: gunicorn petscan.wsgi:application --log-file -
+web: gunicorn petscan.wsgi
