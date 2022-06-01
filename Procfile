@@ -1,1 +1,1 @@
-web: gunicorn petscan.wsgi
+sweb: gunicorn petscan.wsgi
