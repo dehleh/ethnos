@@ -66,6 +66,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 
+
 ROOT_URLCONF = 'petscan.urls'
 
 TEMPLATES = [
@@ -142,3 +143,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+CORS_ALLOWED_ORIGINS = [
+    'https://ethnosvulnscan.vercel.app/login'
+]
