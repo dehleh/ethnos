@@ -20,6 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('api/', include('goodauth.urls')),
     path('', include('ethaccount.urls')),
-    path('', include('ipurl.urls')),
 ]
 
